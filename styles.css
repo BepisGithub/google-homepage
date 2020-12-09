@@ -27,6 +27,6 @@
     display: flex;
     width: 580px;
     height: auto;
-    justify-content: flex-start;
-    padding: 20px;
+    justify-content: center;
+    
 }
