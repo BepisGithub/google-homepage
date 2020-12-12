@@ -56,5 +56,10 @@
 }
 
 footer{
-    background-color: grey;
+    display: flex;
+    background-color: #F2F2F2;
+    width: auto;
+    position: relative;
+    height: 100px;
+    top: 200px;
 }
