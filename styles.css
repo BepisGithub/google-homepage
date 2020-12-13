@@ -78,7 +78,8 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     border: 5px solid black;
-
+    position: absolute;
+    bottom: 0;
 }
 
 #leftFooterLinks{
