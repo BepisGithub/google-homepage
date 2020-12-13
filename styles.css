@@ -92,24 +92,36 @@ footer{
 }
 
 #leftFooterLinks{
+    /*
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+    */
+    float: left;
 }
 
 #midFooterLinks{
+    /*
     display: flex;
     justify-content: center;
     align-items: center;
+    */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 145px;
     
 }
 
 #rightFooterLinks{
+    /*
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    */
+    float: right;
 }
+
 
 
 html,body {
