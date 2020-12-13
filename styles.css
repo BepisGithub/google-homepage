@@ -76,14 +76,13 @@ footer{
 #botFooter{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     border: 5px solid black;
 
 }
 
 #leftFooterLinks{
-    display: flex;
-    justify-content: flex-start;
+    
 }
 
 #midFooterLinks{
