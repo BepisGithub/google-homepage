@@ -128,3 +128,13 @@ html,body {
     padding:0;
 }
 
+a{
+    color: grey;
+    font-size: 12px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
