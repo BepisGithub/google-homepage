@@ -72,7 +72,8 @@ footer{
 }
 
 #centerContent{
-    
+    position: relative;
+    bottom: 60px;
 }
 
 #topFooter{
@@ -126,3 +127,4 @@ html,body {
     margin:0;
     padding:0;
 }
+
