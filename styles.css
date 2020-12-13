@@ -53,12 +53,14 @@ header{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 20px;
 }
 
 #rightSideLinks{
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
+    padding: 20px;
 }
 
 footer{
