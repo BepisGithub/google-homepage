@@ -78,7 +78,7 @@ footer{
 }
 
 #topFooter{
-    border: 5px solid #EBEBEB; /* the real colour is #EBEBEB*/
+    border: 1px solid #DADCE0; /* the real colour is #DADCE0*/
 }
 
 #botFooter{
@@ -87,7 +87,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     */
-    border: 5px solid #EBEBEB;
+    border: 1px solid #DADCE0;
    
 }
 
