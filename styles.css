@@ -50,16 +50,12 @@ header{
 }
 
 #leftSideLinks{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    float: left;
     padding: 20px;
 }
 
 #rightSideLinks{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    float: right;
     padding: 20px;
 }
 
