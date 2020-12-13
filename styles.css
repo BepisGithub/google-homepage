@@ -56,8 +56,10 @@
 }
 
 footer{
+    /*
     display: flex;
     flex-direction: column;
+    */
     background-color: #F2F2F2;
     width: 100vw;
     position: absolute;
@@ -74,23 +76,33 @@ footer{
 }
 
 #botFooter{
+    /*
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    */
     border: 5px solid black;
    
 }
 
 #leftFooterLinks{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
 }
 
 #midFooterLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 #rightFooterLinks{
-    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
