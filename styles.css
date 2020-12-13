@@ -43,6 +43,12 @@
     height: 30px;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 #leftSideLinks{
     display: flex;
     align-items: flex-start;
