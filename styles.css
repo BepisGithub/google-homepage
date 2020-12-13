@@ -57,11 +57,25 @@
 
 footer{
     display: flex;
+    flex-direction: column;
     background-color: #F2F2F2;
-    width: auto;
-    position: relative;
-    height: 100px;
-    top: 200px;
+    width: 100vw;
+    position: absolute;
+    height: 8.7vh;
+    bottom: 0vh;
+}
+
+#centerContent{
+
+}
+
+#topFooter{
+    
+    border: 5px solid black;
+}
+
+#botFooter{
+
 }
 
 html,body {
