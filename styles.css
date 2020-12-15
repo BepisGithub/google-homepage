@@ -67,8 +67,7 @@ footer{
     background-color: #F2F2F2;
     width: 100vw;
     position: absolute;
-    
-    bottom: 0vh;
+    bottom: 0;
 }
 
 #centerContent{
