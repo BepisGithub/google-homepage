@@ -1,3 +1,10 @@
+.headerColourText{
+    color: #323232 !important;
+}
+.footerColourText{
+    color: #767A7F !important;
+}
+
 #logoImg{
     position: relative;
     bottom: 65px;
