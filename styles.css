@@ -118,9 +118,10 @@ footer{
     display: flex;
     justify-content: center;
     */
-    position: relative;
-    right: 145px;
-    
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 #rightFooterLinks{
