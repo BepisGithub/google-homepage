@@ -108,8 +108,35 @@ footer{
     justify-content: flex-start;
     align-items: center;
     */
-    float: left;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+#fbl1,#fbl2,#fbl3,#fbr1,#fbr2,#fbr3,#fbm1{
+    margin: 0px 15px;
+    position: relative;
+    top: 13px;
+}
+
+#ft1{
+    position: relative;
+    left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #midFooterLinks{
     /*
@@ -124,6 +151,7 @@ footer{
     width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #rightFooterLinks{
@@ -132,7 +160,11 @@ footer{
     justify-content: flex-end;
     align-items: center;
     */
-    float: right;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
