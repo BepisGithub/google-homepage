@@ -98,7 +98,7 @@ footer{
     */
     display: flex;
     justify-content: space-between;
-
+    font-size: 14px;
 
 }
 
@@ -126,17 +126,20 @@ footer{
     position: relative;
     top: 13px;
     left: 17px;
+    font-size: inherit;
 }
 #fbr1,#fbr2,#fbr3{
     margin: 0px 15px;
     position: relative;
     top: 13px;
     right: 17px;
+    font-size: inherit;
 }
 #fbm1{
     margin: 0px 15px;
     position: relative;
     top: 13px;
+    font-size: inherit;
 }
 
 
