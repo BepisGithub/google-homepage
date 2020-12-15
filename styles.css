@@ -61,16 +61,22 @@ nav{
     justify-content: center;
     top: 30px;
     
+    
 }
 
 #searchButton{
     margin-right: 5px;
     height: 30px;
+    background-color: #F8F9FA;
+    border: 0;
 }
 
 #luckyButton{
     margin-left: 5px;
     height: 30px;
+    background-color: #F8F9FA;
+    border: 0;
+    
 }
 
 
@@ -157,15 +163,6 @@ footer{
     position: relative;
     left: 30px;
     font-size: 15px;
-}
-
-
-#centerContent{
-    border: 5px solid black;
-}
-
-header{
-    border: 5px dotted red;
 }
 
 
