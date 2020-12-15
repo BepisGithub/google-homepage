@@ -21,11 +21,15 @@ nav{
 #leftSideLinks{
     float: left;
     padding: 20px;
+    position: relative;
+    left: 10px;
 }
 
 #rightSideLinks{
     float: right;
     padding: 20px;
+    position: relative;
+    right: 10px;
 }
 
 #logoImg{
@@ -60,9 +64,15 @@ nav{
     height: auto;
     justify-content: center;
     top: 30px;
-    
+    transform: scale(1.25);
     
 }
+
+#googleTextButton,#luckyTextButton{
+    transform: scale(0.9);
+}
+
+
 
 #searchButton{
     margin-right: 5px;
@@ -165,6 +175,11 @@ footer{
     font-size: 15px;
 }
 
+
+
+#htl1{
+    margin-right: 12px;
+}
 
 
 
