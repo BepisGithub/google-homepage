@@ -5,6 +5,29 @@
     color: #767A7F !important;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 999 !important;
+    position: static;
+}
+
+nav{
+    z-index: 111 !important;
+    position: static;
+}
+
+#leftSideLinks{
+    float: left;
+    padding: 20px;
+}
+
+#rightSideLinks{
+    float: right;
+    padding: 20px;
+}
+
 #logoImg{
     position: relative;
     bottom: 65px;
@@ -50,21 +73,7 @@
     height: 30px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
 
-#leftSideLinks{
-    float: left;
-    padding: 20px;
-}
-
-#rightSideLinks{
-    float: right;
-    padding: 20px;
-}
 
 footer{
     /*
@@ -81,6 +90,7 @@ footer{
 #centerContent{
     position: relative;
     bottom: 60px;
+    z-index: 1;
 }
 
 #topFooter{
@@ -150,10 +160,13 @@ footer{
 }
 
 
+#centerContent{
+    border: 5px solid black;
+}
 
-
-
-
+header{
+    border: 5px dotted red;
+}
 
 
 
