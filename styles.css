@@ -94,6 +94,8 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     */
+    display: flex;
+    justify-content: space-between;
     
    
 }
@@ -112,9 +114,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    */
+    
     display: flex;
     justify-content: center;
+    */
     position: relative;
     right: 145px;
     
@@ -134,6 +137,7 @@ footer{
 html,body {
     margin:0;
     padding:0;
+    font-family: arial,sans-serif;
 }
 
 a{
