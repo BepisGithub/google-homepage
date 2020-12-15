@@ -102,18 +102,7 @@ footer{
 
 }
 
-#leftFooterLinks{
-    /*
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    */
-    position: absolute;
-    width: 100vw;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+
 /*
 #fbl1,#fbl2,#fbl3,#fbr1,#fbr2,#fbr3,#fbm1{
     margin: 0px 15px;
@@ -140,12 +129,22 @@ footer{
     position: relative;
     top: 13px;
     font-size: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+#leafImage{
+    transform: scale(0.6);
+    position: relative;
+    top: 13px;
+    left: 10px;
 }
 
 
 #ft1{
     position: relative;
     left: 30px;
+    font-size: 15px;
 }
 
 
@@ -157,7 +156,18 @@ footer{
 
 
 
-
+#leftFooterLinks{
+    /*
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    */
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 #midFooterLinks{
@@ -175,6 +185,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+
+
 
 #rightFooterLinks{
     /*
