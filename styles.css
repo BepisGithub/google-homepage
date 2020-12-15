@@ -98,7 +98,7 @@ footer{
     */
     display: flex;
     justify-content: space-between;
-    
+
 
 }
 
@@ -114,12 +114,31 @@ footer{
     justify-content: flex-start;
     align-items: center;
 }
-
+/*
 #fbl1,#fbl2,#fbl3,#fbr1,#fbr2,#fbr3,#fbm1{
     margin: 0px 15px;
     position: relative;
     top: 13px;
 }
+*/
+#fbl1,#fbl2,#fbl3{
+    margin: 0px 15px;
+    position: relative;
+    top: 13px;
+    left: 17px;
+}
+#fbr1,#fbr2,#fbr3{
+    margin: 0px 15px;
+    position: relative;
+    top: 13px;
+    right: 17px;
+}
+#fbm1{
+    margin: 0px 15px;
+    position: relative;
+    top: 13px;
+}
+
 
 #ft1{
     position: relative;
