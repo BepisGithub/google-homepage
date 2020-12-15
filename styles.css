@@ -75,6 +75,7 @@ footer{
     width: 100vw;
     position: absolute;
     bottom: 0;
+    height: 9vh;
 }
 
 #centerContent{
@@ -84,6 +85,7 @@ footer{
 
 #topFooter{
     border: 1px solid #DADCE0; /* the real colour is #DADCE0*/
+    height: 50%;
 }
 
 #botFooter{
