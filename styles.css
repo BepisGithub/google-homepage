@@ -31,6 +31,11 @@ nav{
     position: relative;
     right: 10px;
 }
+#shareImg{
+    position: absolute;
+    top: 40.5%;
+    left: 60.5%;
+}
 
 #logoImg{
     position: relative;
@@ -58,6 +63,7 @@ nav{
     background-repeat: no-repeat;
     background-size: 5%;
     background-position: 10px center;
+    background-color: #FFFFFF;
     text-indent: 47px;
     
 }
