@@ -31,6 +31,9 @@ nav{
     position: relative;
     right: 10px;
 }
+
+
+
 #shareImg{
     position: absolute;
     top: 40.5%;
@@ -192,7 +195,9 @@ footer{
     margin-right: 12px;
 }
 
-
+#htr1,#htr2,#htr3,#htr4{
+    margin-right: 12px;
+}
 
 #leftFooterLinks{
     /*
